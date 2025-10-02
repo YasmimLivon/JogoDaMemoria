@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000014;
+}
+
+h1{
+color: #FFF;
+-webkit-text-stroke-width: 4px;
+-webkit-text-stroke-color: #8958FF;
+font-family: "Jolly Lodger";
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container{
+    display: grid;
+   width: 600px;
+   margin: 40px auto;
+   grid-template-columns: 200px 200px 200px 200px 200px 200px;
+   grid-gap: 15px;
+   justify-content: center;
+}
+
+.container div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.carta{
+    background-color: #FFE3BD;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.carta:hover{
+    transform: scale(1.05);
+}
+
+button{
+    font-family: "Jolly Lodger";
+    background-color: #8958FF;
+    border: 0px;
+    font-size: 72px;
+    color: white;
+}
+.carta img{
+    align-items: center;
+}
+
+.button{
+    border-radius: 12px;
+    background-color: #8958FF;
+    width: 200px;
+    height: 176px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
